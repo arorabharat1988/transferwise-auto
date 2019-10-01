@@ -17,7 +17,6 @@ Ensure you have java and maven installed in your machine, then run the following
 
 #### Report
 The report is generated in HTML format. The report can be found in the following location.
-```
 
 ##### Cucumber Reports
 ```
