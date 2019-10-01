@@ -1,0 +1,1442 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1367160327,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDef.setsession()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "To verify user navigation to correct topic page from Community Page",
+        "description": "",
+        "id": "testing-functionality-on-currency-converter-page;to-verify-user-navigation-to-correct-topic-page-from-community-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 132929046,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 952981635,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to \"currencyConverter\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "currencyConverter",
+                  "offset": 19
+                }
+              ],
+              "location": "BaseStepDef.user_navigates_to_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185029894,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"100.00\" in \"amountTextBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100.00",
+                  "offset": 13
+                },
+                {
+                  "val": "amountTextBox",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175872645,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"fromCurrenyDropdownButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fromCurrenyDropdownButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100682237,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"INR\" in \"fromCurrencySearchBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "INR",
+                  "offset": 13
+                },
+                {
+                  "val": "fromCurrencySearchBox",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66761200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on \"selectedFromCurrency\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectedFromCurrency",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100820114,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on \"toCurrenyDropdownButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toCurrenyDropdownButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105583836,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"GBP\" in \"toCurrencySearchBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GBP",
+                  "offset": 13
+                },
+                {
+                  "val": "toCurrencySearchBox",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53605705,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \"selectedToCurrency\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectedToCurrency",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579458080,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on \"convertCurrencyButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "convertCurrencyButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12134927,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify user has navigated to correct \"currencyConverter\" calculation url for \"INR\" to \"GBP\" conversion for \"100.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "currencyConverter",
+                  "offset": 38
+                },
+                {
+                  "val": "INR",
+                  "offset": 78
+                },
+                {
+                  "val": "GBP",
+                  "offset": 87
+                },
+                {
+                  "val": "100.00",
+                  "offset": 108
+                }
+              ],
+              "location": "CurrencyConverterPageStepDef.verify_user_navigated_to_correct_url(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77768890,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify correct amount value \"convertedAmount\" is getting displayed after conversion from \"INR\" to \"GBP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "convertedAmount",
+                  "offset": 29
+                },
+                {
+                  "val": "INR",
+                  "offset": 90
+                },
+                {
+                  "val": "GBP",
+                  "offset": 99
+                }
+              ],
+              "location": "CurrencyConverterPageStepDef.verify_correct_amount_gets_diaplyed_in_currency_conversion(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@transferwise"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 864365891,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDef.setsession()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "To verify user navigation to correct topic page from Community Page",
+        "description": "",
+        "id": "testing-functionality-on-currency-converter-page;to-verify-user-navigation-to-correct-topic-page-from-community-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 143864199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9442052734,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to \"currencyConverter\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "currencyConverter",
+                  "offset": 19
+                }
+              ],
+              "location": "BaseStepDef.user_navigates_to_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155649507,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"20\" in \"amountTextBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 13
+                },
+                {
+                  "val": "amountTextBox",
+                  "offset": 21
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149560764,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"fromCurrenyDropdownButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fromCurrenyDropdownButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102815448,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"EUR\" in \"fromCurrencySearchBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EUR",
+                  "offset": 13
+                },
+                {
+                  "val": "fromCurrencySearchBox",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86880059,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on \"selectedFromCurrency\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectedFromCurrency",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115790454,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on \"toCurrenyDropdownButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toCurrenyDropdownButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91016963,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"INR\" in \"toCurrencySearchBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "INR",
+                  "offset": 13
+                },
+                {
+                  "val": "toCurrencySearchBox",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63575728,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \"selectedToCurrency\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectedToCurrency",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3466917718,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on \"convertCurrencyButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "convertCurrencyButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27836832,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify user has navigated to correct \"currencyConverter\" calculation url for \"EUR\" to \"INR\" conversion for \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "currencyConverter",
+                  "offset": 38
+                },
+                {
+                  "val": "EUR",
+                  "offset": 78
+                },
+                {
+                  "val": "INR",
+                  "offset": 87
+                },
+                {
+                  "val": "20",
+                  "offset": 108
+                }
+              ],
+              "location": "CurrencyConverterPageStepDef.verify_user_navigated_to_correct_url(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126884731,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify correct amount value \"convertedAmount\" is getting displayed after conversion from \"EUR\" to \"INR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "convertedAmount",
+                  "offset": 29
+                },
+                {
+                  "val": "EUR",
+                  "offset": 90
+                },
+                {
+                  "val": "INR",
+                  "offset": 99
+                }
+              ],
+              "location": "CurrencyConverterPageStepDef.verify_correct_amount_gets_diaplyed_in_currency_conversion(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@transferwise"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 842122642,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDef.setsession()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "To verify user navigation to correct topic page from Community Page",
+        "description": "",
+        "id": "testing-functionality-on-currency-converter-page;to-verify-user-navigation-to-correct-topic-page-from-community-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 131729184,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3248978334,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to \"currencyConverter\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "currencyConverter",
+                  "offset": 19
+                }
+              ],
+              "location": "BaseStepDef.user_navigates_to_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137396215,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"33\" in \"amountTextBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "33",
+                  "offset": 13
+                },
+                {
+                  "val": "amountTextBox",
+                  "offset": 21
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157578355,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"fromCurrenyDropdownButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fromCurrenyDropdownButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97928442,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"USD\" in \"fromCurrencySearchBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USD",
+                  "offset": 13
+                },
+                {
+                  "val": "fromCurrencySearchBox",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89492713,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on \"selectedFromCurrency\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectedFromCurrency",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114034725,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on \"toCurrenyDropdownButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toCurrenyDropdownButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93883093,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"INR\" in \"toCurrencySearchBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "INR",
+                  "offset": 13
+                },
+                {
+                  "val": "toCurrencySearchBox",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72675066,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \"selectedToCurrency\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectedToCurrency",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 749660702,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on \"convertCurrencyButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "convertCurrencyButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55331419,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify user has navigated to correct \"currencyConverter\" calculation url for \"USD\" to \"INR\" conversion for \"33\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "currencyConverter",
+                  "offset": 38
+                },
+                {
+                  "val": "USD",
+                  "offset": 78
+                },
+                {
+                  "val": "INR",
+                  "offset": 87
+                },
+                {
+                  "val": "33",
+                  "offset": 108
+                }
+              ],
+              "location": "CurrencyConverterPageStepDef.verify_user_navigated_to_correct_url(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70000041,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify correct amount value \"convertedAmount\" is getting displayed after conversion from \"USD\" to \"INR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "convertedAmount",
+                  "offset": 29
+                },
+                {
+                  "val": "USD",
+                  "offset": 90
+                },
+                {
+                  "val": "INR",
+                  "offset": 99
+                }
+              ],
+              "location": "CurrencyConverterPageStepDef.verify_correct_amount_gets_diaplyed_in_currency_conversion(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@transferwise"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 857261918,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDef.setsession()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "To verify user navigation to correct topic page from Community Page",
+        "description": "",
+        "id": "testing-functionality-on-currency-converter-page;to-verify-user-navigation-to-correct-topic-page-from-community-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 131780134,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2367792847,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to \"currencyConverter\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "currencyConverter",
+                  "offset": 19
+                }
+              ],
+              "location": "BaseStepDef.user_navigates_to_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164887311,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"44.46\" in \"amountTextBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "44.46",
+                  "offset": 13
+                },
+                {
+                  "val": "amountTextBox",
+                  "offset": 24
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175187960,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"fromCurrenyDropdownButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fromCurrenyDropdownButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94162225,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"GBP\" in \"fromCurrencySearchBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GBP",
+                  "offset": 13
+                },
+                {
+                  "val": "fromCurrencySearchBox",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69772438,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on \"selectedFromCurrency\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectedFromCurrency",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119746841,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on \"toCurrenyDropdownButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toCurrenyDropdownButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119530023,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"USD\" in \"toCurrencySearchBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USD",
+                  "offset": 13
+                },
+                {
+                  "val": "toCurrencySearchBox",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70030362,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \"selectedToCurrency\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectedToCurrency",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 614265274,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on \"convertCurrencyButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "convertCurrencyButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66817448,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify user has navigated to correct \"currencyConverter\" calculation url for \"GBP\" to \"USD\" conversion for \"44.46\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "currencyConverter",
+                  "offset": 38
+                },
+                {
+                  "val": "GBP",
+                  "offset": 78
+                },
+                {
+                  "val": "USD",
+                  "offset": 87
+                },
+                {
+                  "val": "44.46",
+                  "offset": 108
+                }
+              ],
+              "location": "CurrencyConverterPageStepDef.verify_user_navigated_to_correct_url(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69588795,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify correct amount value \"convertedAmount\" is getting displayed after conversion from \"GBP\" to \"USD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "convertedAmount",
+                  "offset": 29
+                },
+                {
+                  "val": "GBP",
+                  "offset": 90
+                },
+                {
+                  "val": "USD",
+                  "offset": 99
+                }
+              ],
+              "location": "CurrencyConverterPageStepDef.verify_correct_amount_gets_diaplyed_in_currency_conversion(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@transferwise"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 889633814,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDef.setsession()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "To verify user navigation to correct topic page from Community Page",
+        "description": "",
+        "id": "testing-functionality-on-currency-converter-page;to-verify-user-navigation-to-correct-topic-page-from-community-page;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 131038374,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1160371220,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to \"currencyConverter\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "currencyConverter",
+                  "offset": 19
+                }
+              ],
+              "location": "BaseStepDef.user_navigates_to_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167794708,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"78.908\" in \"amountTextBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "78.908",
+                  "offset": 13
+                },
+                {
+                  "val": "amountTextBox",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164427157,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on \"fromCurrenyDropdownButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fromCurrenyDropdownButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99863157,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"GBP\" in \"fromCurrencySearchBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GBP",
+                  "offset": 13
+                },
+                {
+                  "val": "fromCurrencySearchBox",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67640307,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on \"selectedFromCurrency\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectedFromCurrency",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102281601,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on \"toCurrenyDropdownButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toCurrenyDropdownButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131994767,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"EUR\" in \"toCurrencySearchBox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EUR",
+                  "offset": 13
+                },
+                {
+                  "val": "toCurrencySearchBox",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.user_enters_text_in_textBox(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60069663,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \"selectedToCurrency\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selectedToCurrency",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608641675,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on \"convertCurrencyButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "convertCurrencyButton",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.user_clicks_on_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7415007,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify user has navigated to correct \"currencyConverter\" calculation url for \"GBP\" to \"EUR\" conversion for \"78.908\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "currencyConverter",
+                  "offset": 38
+                },
+                {
+                  "val": "GBP",
+                  "offset": 78
+                },
+                {
+                  "val": "EUR",
+                  "offset": 87
+                },
+                {
+                  "val": "78.908",
+                  "offset": 108
+                }
+              ],
+              "location": "CurrencyConverterPageStepDef.verify_user_navigated_to_correct_url(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60882235,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify correct amount value \"convertedAmount\" is getting displayed after conversion from \"GBP\" to \"EUR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "convertedAmount",
+                  "offset": 29
+                },
+                {
+                  "val": "GBP",
+                  "offset": 90
+                },
+                {
+                  "val": "EUR",
+                  "offset": 99
+                }
+              ],
+              "location": "CurrencyConverterPageStepDef.verify_correct_amount_gets_diaplyed_in_currency_conversion(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@transferwise"
+          }
+        ]
+      }
+    ],
+    "name": "Testing functionality on Currency Converter Page",
+    "description": "",
+    "id": "testing-functionality-on-currency-converter-page",
+    "keyword": "Feature",
+    "uri": "CurrencyConverterPageTest.feature"
+  }
+]
