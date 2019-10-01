@@ -14,6 +14,12 @@ Ensure you have java and maven installed in your machine, then run the following
 3. mvn clean install
 4. mvn clean test -Dtest=runner.Runner
 ```
+#### Environment
+
+```
+Chrome Verison 77.+
+JAVA 1.7
+```
 
 #### Report
 The report is generated in HTML format. The report can be found in the following location.
