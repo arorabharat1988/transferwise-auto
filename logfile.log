@@ -1,0 +1,168 @@
+2019-10-01 11:52:14,623 INFO  [Log] Entering user_navigates_to_Page function 
+2019-10-01 11:52:16,401 INFO  [Log] Exiting user_navigates_to_Page function 
+2019-10-01 11:52:16,607 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:16,772 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:16,885 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:16,952 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:16,954 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:17,075 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:17,194 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:17,267 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:17,269 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:17,880 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:19,124 INFO  [Log] Entering user_navigates_to_Page function 
+2019-10-01 11:52:20,118 INFO  [Log] Exiting user_navigates_to_Page function 
+2019-10-01 11:52:20,292 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:20,505 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:20,611 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:20,688 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:20,689 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:20,840 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:20,938 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:21,035 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:21,036 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:21,817 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:23,031 INFO  [Log] Entering user_navigates_to_Page function 
+2019-10-01 11:52:24,900 INFO  [Log] Exiting user_navigates_to_Page function 
+2019-10-01 11:52:25,127 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:30,346 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:30,469 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:35,591 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:35,592 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:40,921 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:41,040 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:46,130 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:46,131 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:52,901 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:54,145 INFO  [Log] Entering user_navigates_to_Page function 
+2019-10-01 11:52:55,246 INFO  [Log] Exiting user_navigates_to_Page function 
+2019-10-01 11:52:55,430 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:55,611 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:55,715 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:55,783 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:55,784 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:55,922 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:56,041 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:56,139 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:56,140 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:52:56,896 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:52:58,124 INFO  [Log] Entering user_navigates_to_Page function 
+2019-10-01 11:53:01,038 INFO  [Log] Exiting user_navigates_to_Page function 
+2019-10-01 11:53:01,205 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:53:01,399 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:53:01,503 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:53:01,566 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:53:01,567 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:53:01,697 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:53:01,833 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:53:01,900 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 11:53:01,900 INFO  [Log] Enter user_clicks_on_Page function 
+2019-10-01 11:53:02,714 INFO  [Log] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:46,967 INFO  [BaseFunction] Initialise Chrome driver!!! 
+2019-10-01 12:07:48,435 INFO  [BaseStepDef] Entering user_navigates_to_Page function 
+2019-10-01 12:07:48,435 INFO  [BaseFunction] URL: https://transferwise.com/ie/currency-converter/ 
+2019-10-01 12:07:48,435 INFO  [BaseFunction] Locator config path: /src/test/resources/properties/locators/currencyConverterLocatorsPath.properties 
+2019-10-01 12:07:50,563 INFO  [BaseStepDef] Exiting user_navigates_to_Page function 
+2019-10-01 12:07:50,748 INFO  [BaseStepDef] Enter user_clicks_on_Page function 
+2019-10-01 12:07:50,927 INFO  [BaseStepDef] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:51,039 INFO  [BaseStepDef] Enter user_clicks_on_Page function 
+2019-10-01 12:07:51,110 INFO  [BaseStepDef] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:51,111 INFO  [BaseStepDef] Enter user_clicks_on_Page function 
+2019-10-01 12:07:51,254 INFO  [BaseStepDef] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:51,350 INFO  [BaseStepDef] Enter user_clicks_on_Page function 
+2019-10-01 12:07:51,425 INFO  [BaseStepDef] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:51,426 INFO  [BaseStepDef] Enter user_clicks_on_Page function 
+2019-10-01 12:07:52,137 INFO  [BaseStepDef] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:52,139 INFO  [CurrencyConverterPageStepDef] Call verify_user_navigated_to_correct_url 
+2019-10-01 12:07:52,142 INFO  [CurrencyConverterPage] The expected currency calculator url: https://transferwise.com/ie/currency-converter/inr-to-gbp-rate?amount=100.00 
+2019-10-01 12:07:52,153 INFO  [CurrencyConverterPageStepDef] Call verify_correct_amount_gets_diaplyed_in_currency_conversion 
+2019-10-01 12:07:52,386 INFO  [BaseFunction] Initialise Chrome driver!!! 
+2019-10-01 12:07:53,299 INFO  [BaseStepDef] Entering user_navigates_to_Page function 
+2019-10-01 12:07:53,300 INFO  [BaseFunction] URL: https://transferwise.com/ie/currency-converter/ 
+2019-10-01 12:07:53,300 INFO  [BaseFunction] Locator config path: /src/test/resources/properties/locators/currencyConverterLocatorsPath.properties 
+2019-10-01 12:07:54,356 INFO  [BaseStepDef] Exiting user_navigates_to_Page function 
+2019-10-01 12:07:54,536 INFO  [BaseStepDef] Enter user_clicks_on_Page function 
+2019-10-01 12:07:54,718 INFO  [BaseStepDef] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:54,820 INFO  [BaseStepDef] Enter user_clicks_on_Page function 
+2019-10-01 12:07:54,892 INFO  [BaseStepDef] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:54,893 INFO  [BaseStepDef] Enter user_clicks_on_Page function 
+2019-10-01 12:07:54,992 INFO  [BaseStepDef] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:55,126 INFO  [BaseStepDef] Enter user_clicks_on_Page function 
+2019-10-01 12:07:55,192 INFO  [BaseStepDef] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:55,194 INFO  [BaseStepDef] Enter user_clicks_on_Page function 
+2019-10-01 12:07:56,697 INFO  [BaseStepDef] Exiting user_clicks_on_Page function 
+2019-10-01 12:07:56,698 INFO  [CurrencyConverterPageStepDef] Call verify_user_navigated_to_correct_url 
+2019-10-01 12:07:56,701 INFO  [CurrencyConverterPage] The expected currency calculator url: https://transferwise.com/ie/currency-converter/gbp-to-eur-rate?amount=78.908 
+2019-10-01 12:07:56,707 INFO  [CurrencyConverterPageStepDef] Call verify_correct_amount_gets_diaplyed_in_currency_conversion 
+2019-10-01 12:08:57,872 INFO  [BaseFunction] Initialise Chrome driver!!! 
+2019-10-01 12:08:59,348 INFO  [BaseStepDefinition] Entering user_navigates_to_Page function 
+2019-10-01 12:08:59,348 INFO  [BaseFunction] URL: https://transferwise.com/ie/currency-converter/ 
+2019-10-01 12:08:59,348 INFO  [BaseFunction] Locator config path: /src/test/resources/properties/locators/currencyConverterLocatorsPath.properties 
+2019-10-01 12:09:01,156 INFO  [BaseStepDefinition] Exiting user_navigates_to_Page function 
+2019-10-01 12:09:01,331 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:09:01,518 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:09:01,621 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:09:01,690 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:09:01,691 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:09:01,796 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:09:01,914 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:09:01,991 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:09:01,992 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:09:02,674 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:09:02,676 INFO  [CurrencyConverterPageStepDefinition] Call verify_user_navigated_to_correct_url 
+2019-10-01 12:09:02,679 INFO  [CurrencyConverterPage] The expected currency calculator url: https://transferwise.com/ie/currency-converter/inr-to-gbp-rate?amount=100.00 
+2019-10-01 12:09:02,686 INFO  [CurrencyConverterPageStepDefinition] Call verify_correct_amount_gets_diaplyed_in_currency_conversion 
+2019-10-01 12:09:02,910 INFO  [BaseFunction] Initialise Chrome driver!!! 
+2019-10-01 12:09:03,860 INFO  [BaseStepDefinition] Entering user_navigates_to_Page function 
+2019-10-01 12:09:03,860 INFO  [BaseFunction] URL: https://transferwise.com/ie/currency-converter/ 
+2019-10-01 12:09:03,860 INFO  [BaseFunction] Locator config path: /src/test/resources/properties/locators/currencyConverterLocatorsPath.properties 
+2019-10-01 12:09:06,899 INFO  [BaseStepDefinition] Exiting user_navigates_to_Page function 
+2019-10-01 12:09:07,058 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:09:07,241 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:09:07,346 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:09:07,422 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:09:07,423 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:09:07,591 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:09:07,685 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:09:07,756 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:09:07,757 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:09:08,524 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:09:08,526 INFO  [CurrencyConverterPageStepDefinition] Call verify_user_navigated_to_correct_url 
+2019-10-01 12:09:08,529 INFO  [CurrencyConverterPage] The expected currency calculator url: https://transferwise.com/ie/currency-converter/gbp-to-eur-rate?amount=78.908 
+2019-10-01 12:09:08,534 INFO  [CurrencyConverterPageStepDefinition] Call verify_correct_amount_gets_diaplyed_in_currency_conversion 
+2019-10-01 12:10:48,225 INFO  [BaseFunction] Initialise Chrome driver!!! 
+2019-10-01 12:10:49,958 INFO  [BaseStepDefinition] Entering user_navigates_to_Page function 
+2019-10-01 12:10:49,959 INFO  [BaseFunction] URL: https://transferwise.com/ie/currency-converter/ 
+2019-10-01 12:10:49,959 INFO  [BaseFunction] Locator config path: /src/test/resources/properties/locators/currencyConverterLocatorsPath.properties 
+2019-10-01 12:10:50,991 INFO  [BaseStepDefinition] Exiting user_navigates_to_Page function 
+2019-10-01 12:10:51,184 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:10:51,375 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:10:51,491 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:10:51,573 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:10:51,574 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:10:51,726 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:10:51,834 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:10:51,921 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:10:51,922 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:10:52,582 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:10:52,584 INFO  [CurrencyConverterPageStepDefinition] Call verify_user_navigated_to_correct_url 
+2019-10-01 12:10:52,587 INFO  [CurrencyConverterPage] The expected currency calculator url: https://transferwise.com/ie/currency-converter/inr-to-gbp-rate?amount=100.00 
+2019-10-01 12:10:52,597 INFO  [CurrencyConverterPageStepDefinition] Call verify_correct_amount_gets_diaplyed_in_currency_conversion 
+2019-10-01 12:10:52,852 INFO  [BaseFunction] Initialise Chrome driver!!! 
+2019-10-01 12:10:53,923 INFO  [BaseStepDefinition] Entering user_navigates_to_Page function 
+2019-10-01 12:10:53,923 INFO  [BaseFunction] URL: https://transferwise.com/ie/currency-converter/ 
+2019-10-01 12:10:53,923 INFO  [BaseFunction] Locator config path: /src/test/resources/properties/locators/currencyConverterLocatorsPath.properties 
+2019-10-01 12:10:55,714 INFO  [BaseStepDefinition] Exiting user_navigates_to_Page function 
+2019-10-01 12:10:55,913 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:10:56,087 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:10:56,214 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:10:56,287 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:10:56,288 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:10:56,422 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:10:56,539 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:10:56,621 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:10:56,621 INFO  [BaseStepDefinition] Enter user_clicks_on_Page function 
+2019-10-01 12:10:57,264 INFO  [BaseStepDefinition] Exiting user_clicks_on_Page function 
+2019-10-01 12:10:57,266 INFO  [CurrencyConverterPageStepDefinition] Call verify_user_navigated_to_correct_url 
+2019-10-01 12:10:57,269 INFO  [CurrencyConverterPage] The expected currency calculator url: https://transferwise.com/ie/currency-converter/gbp-to-eur-rate?amount=78.908 
+2019-10-01 12:10:57,275 INFO  [CurrencyConverterPageStepDefinition] Call verify_correct_amount_gets_diaplyed_in_currency_conversion 

@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true,
 		features="src/test/resources/feature", 
 		glue= { "helpers",
-				"stepDefinition"
+				"stepdefinition"
 			},
 		plugin = {"pretty", "html:target/cucumber-reports",	"json:target/cucumber-reports/cucumber.json", 
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" },

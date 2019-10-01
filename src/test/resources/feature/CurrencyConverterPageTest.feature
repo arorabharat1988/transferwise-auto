@@ -23,3 +23,4 @@ Scenario Outline: To verify user navigation to correct topic page from Community
 	|33           |USD		    | INR       |
 	|44.46        |GBP		    | USD       |
 	|78.908       |GBP		    | EUR       |
+
